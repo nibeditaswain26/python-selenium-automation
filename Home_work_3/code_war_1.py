@@ -4,7 +4,7 @@
 # It should look like this:
 # Sam Harris => S.H
 # patrick feeney => P.F
-"""
+"""This is method one way to solve
 full_name = input("enter your full name: ")
 list_name = full_name.split()
 print(list_name)
@@ -12,7 +12,7 @@ first_name = list_name[0]
 last_name = list_name[1]
 print(first_name[0].upper(), ".", last_name[0].upper())
 """
-"""
+"""This is second way to solve
 full_name = input("enter your full name: ")
 list_name = full_name.split()
 # print(list_name)
@@ -33,7 +33,7 @@ def initial_name():
 
 my_name = initial_name()
 print(my_name)
-"""
+"""This is 3rd way to solve.
 full_name = input("Enter your full name: ")
 split_name = full_name.split()
 first_name = split_name[0]
