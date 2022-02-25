@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    background-image: url("Image/back_ground.jpg");
+}
+
+
+#first_id{
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main_class{
+    background-color: floralwhite;
+    padding-top: 0px;
+}
+
+a:active{
+    color: #0000ff;
+}
+a:hover{
+    color: #ff0000;
+}
+a:visited{
+    color: #008000;
+    text-decoration-style: dotted;
+}
