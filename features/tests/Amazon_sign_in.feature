@@ -7,3 +7,11 @@ Feature: Amazon Sign in tests
     Given Open Amazon
     When click on sign in button from sign in popup
     Then verify sign in page opened.
+
+  Scenario: User can see signin in popup for few second.
+    Given Open Amazon
+    Then verify that sign in popup shown
+    Then verify that sign in btn is clickable
+    When wait for 4 sec
+    Then verify that sign in popup shown
+    Then  verify sign in popup disappears
