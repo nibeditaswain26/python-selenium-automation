@@ -2,11 +2,6 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-@given('Open Amazon')
-def open_Amazon(context):
-    context.driver.get('https://Amazon.com')
-
-
 @when('Click on Return&Order')
 def click_order(context):
     context.driver.find_element(By.XPATH, "//a[@href='/gp/css/order-history?ref_=nav_orders_first']").click()
