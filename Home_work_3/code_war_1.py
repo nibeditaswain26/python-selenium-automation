@@ -33,7 +33,8 @@ def initial_name():
 
 my_name = initial_name()
 print(my_name)
-"""This is 3rd way to solve.
+"""
+# This is 3rd way to solve.
 full_name = input("Enter your full name: ")
 split_name = full_name.split()
 first_name = split_name[0]

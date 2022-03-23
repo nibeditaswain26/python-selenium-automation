@@ -4,6 +4,7 @@ from Page.search_result_page import SearchResultPage
 from Page.best_seller_page import BestSellerPage
 from Page.sign_in_page import SignIn
 from Page.cart_page import Cart
+from Page.search_product_page import SearchProduct
 
 
 class Application:
@@ -16,4 +17,5 @@ class Application:
         self.best_seller_page = BestSellerPage(self.driver)
         self.sign_in_page = SignIn(self.driver)
         self.cart_page = Cart(self.driver)
+        self.search_product_page = SearchProduct(self.driver)
 
