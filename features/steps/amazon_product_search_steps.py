@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
 from behave import Given, When, Then
-search_field = (By.ID, "twotabsearchtextbox")
-search_btn = (By.ID, "nav-search-submit-button")
 
 
 @Given('Open Amazon')
