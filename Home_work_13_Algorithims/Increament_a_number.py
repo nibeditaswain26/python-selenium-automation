@@ -19,5 +19,5 @@ def increment_a_num(a):
     return result_list
 
 
-input = [9,2,0]
+input = [9, 9, 9]
 print(increment_a_num(input))
